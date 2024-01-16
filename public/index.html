@@ -1,0 +1,2045 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vadodara Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+</head>
+
+<body>
+
+    <header class="flex w-full bg-white shadow-md fixed z-30 top-0">
+        <div class="flex px-3 py-2 justify-between w-full max-w-7xl mx-auto">
+            <div class="flex h-14 lg:h-16 w-fit">
+                <img src="https://www.itm.ac.in/Images/logo.png" alt="" class="flex h-full w-fit object-contain">
+            </div>
+            <div class="flex w-fit">
+                <button onclick="applyNow()"
+                    class="shimmer-effect2 text-white bg-brand-red flex w-full h-fit py-2 px-5 text-center items-center justify-center font-normal text-base my-auto rounded-md ">
+                    Apply Now
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="w-full">
+
+        <div class="flex fixed z-20 bottom-0 w-full mx-auto bg-white enquire-btn">
+            <button onclick="applyNow()"
+                class="shimmer-effect2 text-white bg-brand-red flex w-full py-3  text-center items-center justify-center font-normal text-lg ">
+                Apply Now
+            </button>
+        </div>
+
+        <section id="Hero" class="flex w-full">
+            <div
+                class="flex justify-between gap-5 h-screen max-h-[900px] bg-hero-banner-mob bg-[bottom_center] bg-[length:auto_40%] md:bg-[length:auto_45%] md:bg-[bottom_center] lg:bg-[length:auto_60%] lg:bg-hero-banner-desk xl:bg-[length:auto_75%] lg:max-h-program-screen lg:overflow-visible bg-no-repeat w-full xl:bg-[bottom_center] mx-auto pt-16 ">
+                <div class="flex flex-col w-full max-w-7xl mx-auto">
+                    <div
+                        class="flex flex-col lg:flex-row w-full h-full  max-w-7xl mx-auto items-center justify-between lg:items-start lg:justify-start xl:pb-40">
+                        <div
+                            class="flex flex-col gap-5 pt-10 px-5 md:gap-8 lg:gap-9 lg:max-w-2xl h-1/2 lg:h-full w-full items-center justify-start lg:items-start lg:justify-center  ">
+                            <h1
+                                class="flex flex-col w-full text-5xl sm:text-4xl+ md:text-6xl lg:text-5xl+ xl:text-8xl+ text-center items-center justify-center md:text-left lg:items-start font-bold lg:font-extrabold ">
+                                <span class="text-3xl">BEGIN YOUR PATH TO A</span>
+                                <span class="text-brand-red">PROSPEROUS CAREER</span>
+                            </h1>
+
+                            <div class="flex w-full">
+                                <p
+                                    class="flex text-center items-center justify-center flex-col lg:items-start sm:flex-row lg:justify-start gap-2 w-full text-lg text-gray-600">
+                                    <span>With</span> <span class="font-semibold text-black">ITM
+                                        VOCATIONAL UNIVERSITY</span>
+                                </p>
+                            </div>
+
+                            <div class="flex items-center justify-center lg:justify-start w-full">
+                                <button id="openEnquire" onclick="openEnquire()"
+                                    class="inline-flex items-center rounded-md bg-pink-50 px-5 py-2 text-sm font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10">Admission
+                                    Open For 2024-25</button>
+                            </div>
+                            <div class="flex flex-col md:flex-row items-center justify-center gap-5 lg:justify-start w-full">
+                                <button onclick="openModal()"
+                                    class="flex py-2 px-5 rounded-md text-white bg-brand-red ring ring-brand-red">Enquire
+                                    Now</button>
+
+                                <button onclick="openModal1()"
+                                    class="flex py-2 px-5 rounded-md text-white bg-brand-red ring ring-brand-red">Download
+                                    Brochure</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="modal"
+            class="hidden w-full h-screen bg-black bg-opacity-50 top-0 right-0 left-0 z-30 items-center justify-center fixed">
+            <div class="flex max-w-7xl relative w-full py-5 md:py-10  mx-auto my-auto">
+
+                <div
+                    class="flex w-full relative h-fit max-w-sm mx-auto  items-center justify-center flex-col bg-brand-gray rounded-md">
+                    <div class="flex w-full py-2">
+                        <h2 class="flex w-full text-center font-bold text-xl items-center justify-center">
+                            Enquire Now</h2>
+                    </div>
+                    <div class="flex w-fit absolute  top-0  right-0">
+                        <button onclick="closeModal()"
+                            class="px-2 py-2 rounded-md bg-white flex border border-brand-red">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6 text-brand-red ">
+                                <path fill-rule="evenodd"
+                                    d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex w-full h-[600px] py-3 items-center justify-center">
+                        <iframe name="NPF" class="flex w-full h-full" height="100%"
+                            src="https://www.itm.edu/NPF-Website-Form/raipurnpfwidgets.html?utm_source=Web&utm_medium=Web&utm_campaign=ITM%20Website"
+                            frameborder="0" marginwidth="0" marginheight="0" scrolling="no">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="modal1"
+            class="hidden w-full h-screen bg-black bg-opacity-50 top-0 right-0 left-0 z-30 items-center justify-center fixed">
+            <div class="flex max-w-7xl relative w-full py-5 md:py-10  mx-auto my-auto">
+                <div
+                    class="flex w-full relative h-fit max-w-sm mx-auto  items-center justify-center flex-col bg-brand-gray rounded-md">
+                    <div class="flex w-full py-2">
+                        <h2 class="flex w-full text-center font-bold text-xl items-center justify-center">
+                            Enter details to get brochure</h2>
+                    </div>
+                    <div class="flex w-fit absolute  top-0  right-0">
+                        <button onclick="closeModal1()"
+                            class="px-2 py-2 rounded-md bg-white flex border border-brand-red">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6 text-brand-red ">
+                                <path fill-rule="evenodd"
+                                    d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex w-full h-[600px] py-3 items-center justify-center">
+                        <iframe name="NPF" class="flex w-full h-full" height="100%"
+                            src="https://www.itm.edu/NPF-Website-Form/raipurnpfwidgets.html?utm_source=Web&utm_medium=Web&utm_campaign=ITM%20Website"
+                            frameborder="0" marginwidth="0" marginheight="0" scrolling="no">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="About" class="flex w-full bg-gray-100">
+            <div
+                class="flex flex-col w-full px-5 py-8 md:py-10 md:px-0 lg:py-14  gap-5 lg:gap-8 xl:gap-12 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex w-full">
+                        <h2
+                            class="flex w-full sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl md:text-2xl lg:text-3xl  shimmer-effect2">
+                            About ITM Group of Institutions
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-fit mx-auto md:w-full">
+                    <div class="flex w-full flex-col items-center justify-center md:order-2">
+                        <div class="flex flex-col gap-3 text-sm md:items-center md:justify-center w-full h-auto">
+                            <p class="flex w-full text-sm text-justify max-w-xl mx-auto">
+                                ITM Group of Institutions was established in 1991 by Dr. P.V. Ramana, Founder and
+                                Chairman. Today, we offer the highest quality higher and technical education at our
+                                Institutions located across India, in various streams including Engineering, Management,
+                                Health Sciences, Hotel Management, Culinary Arts, Fashion and Interior Design.
+                            </p>
+                            <p class="flex w-full text-sm text-justify max-w-xl mx-auto">
+                                ITM Business School is a flagship campus of ITM Group which offers AICTE approved
+                                fulltime Management Programs. ITM Universities in Raipur, Chattisgarh and Vadodara,
+                                Gujarat are UGC recognized, and offer a range of undergraduate and postgraduate programs
+                                in Engineering, Life sciences, Law, Design, Hospitality and Management.
+
+                            </p>
+                            <p class="flex w-full text-sm text-justify max-w-xl mx-auto">
+                                The group has 2 renowned Institutes of Hospitality Management and Culinary Arts in
+                                Mumbai, as well as a Design School in Mumbai. ITM Institute of Health Sciences is a
+                                pioneering Institution, working closely with the health industry to offer programs in
+                                allied health professions.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex w-full md:order-1 items-center justify-center">
+                        <div
+                            class="flex  w-full h-full max-h-80 max-w-lg mx-auto rounded-md items-center justify-center ">
+                            <img loading="lazy" class="flex rounded-md w-full h-full object-cover "
+                                src="assets/banner-img/vadodara-university.webp" alt="about banner 1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="Tie-Ups" class="flex w-full">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex flex-col w-fit gap-5 sm:items-center sm:justify-center md:mx-auto">
+                    <h2
+                        class="flex flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                        Tie Ups
+                    </h2>
+                    <span class="flex w-full max-w-4xl mx-auto text-justify md:text-center items-center justify-center">
+                        ITM Group has developed global collaboration with reputed Universities, leading industries and
+                        Institutions for various sectors like Finance and Financial Markets, Hospitality & Health
+                        Services, Engineering and other technical courses.
+                    </span>
+                </div>
+
+                <div class="flex flex-col gap-5 w-full">
+                    <div class="flex w-full">
+                        <strong class="flex w-full text-lg md:text-xl font-bold md:justify-center">
+                            International Tie-Ups
+                        </strong>
+                    </div>
+                    <div class="flex flex-col w-full gap-3">
+                        <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image1.webp" alt="image1">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image2.webp" alt="image2">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image3.webp" alt="image3">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image4.webp" alt="image4">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image5.webp" alt="image5">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image6.webp" alt="image6">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image6.webp" alt="image6">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image7.webp" alt="image7">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image8.webp" alt="image8">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image9.webp" alt="image9">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image10.webp" alt="image10">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image11.webp" alt="image11">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image12.webp" alt="image12">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image13.webp" alt="image13">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image14.webp" alt="image14">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image15.webp" alt="image15">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image16.webp" alt="image16">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/international-recruiter/image17.webp" alt="image17">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-5 w-full">
+                    <div class="flex w-full">
+                        <strong class="flex w-full text-lg md:text-xl font-bold md:justify-center">
+                            International Tie-Ups
+                        </strong>
+                    </div>
+                    <div class="flex flex-col w-full gap-3">
+                        <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img1.webp" alt="image1">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img2.webp" alt="image2">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img3.webp" alt="image3">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img4.webp" alt="image4">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img5.webp" alt="image5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img6.webp" alt="image6">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img7.webp" alt="image7">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img8.webp" alt="image8">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img9.webp" alt="image9">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img10.webp" alt="image10">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img11.webp" alt="image11">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img12.webp" alt="image12">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img13.webp" alt="image13">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img14.webp" alt="image14">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img15.webp" alt="image15">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img16.webp" alt="image16">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img17.webp" alt="image17">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img18.webp" alt="image18">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img19.webp" alt="image19">
+                                </div>
+                                <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                    <img loading="lazy" src="assets/national-recruiter/img20.webp" alt="image20">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="Specialisations" class="flex w-full">
+            <div
+                class="flex flex-col w-full px-5 py-8 md:py-10 md:px-0 lg:py-14  gap-5 lg:gap-8 xl:gap-12 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex w-full">
+                        <h2
+                            class="flex w-full sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl md:text-2xl lg:text-3xl  shimmer-effect2">
+                            ITM Vocational University Programs Offered
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="flex w-full overflow-x-scroll card-scroll">
+                    <div class="flex w-auto gap-3 py-3">
+                        <div
+                            class="flex-col flex w-72 group hover:shadow-md hover:bg-brand-red transition-all bg-white border border-gray-300 rounded-md">
+                            <div class="flex w-full overflow-hidden">
+                                <img src="assets/program-img/school-of-commerce-management.webp" alt=""
+                                    class="flex h-full w-full object-contain transition-all group-hover:scale-110" />
+                            </div>
+                            <div class="flex w-full group-hover:text-white gap-3 flex-col px-5 py-3 h-52">
+                                <span class="flex w-full text-sm font-bold">Management, Economics and Commerce</span>
+                                <ul class="flex flex-col list-disc pl-3 w-full text-sm">
+                                    <li class="w-full">MBA iConnect</li>
+                                    <li class="w-full">Bachelor of Business Administration (BBA)</li>
+                                    <li class="w-full">Executive MBA</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            class="flex-col flex w-72 group hover:shadow-md hover:bg-brand-red transition-all bg-white border border-gray-300 rounded-md">
+                            <div class="flex w-full overflow-hidden">
+                                <img src="assets/program-img/school-of-enginnering-and-reserch.webp" alt=""
+                                    class="flex h-full w-full object-contain transition-all group-hover:scale-110" />
+                            </div>
+                            <div class="flex w-full group-hover:text-white gap-3 flex-col px-5 py-3 h-52">
+                                <span class="flex w-full text-sm font-bold">Engineering and Technology</span>
+                                <ul class="flex flex-col list-disc pl-3 w-full text-sm">
+                                    <li class="w-full">Bachelor of Technology (B.Tech)</li>
+                                    <li class="w-full">Integrated B.Tech (Diploma + Degree)</li>
+                                    <li class="w-full">Bachelor of Computer Application (BCA)</li>
+                                    <li class="w-full">Master of Technology (M.Tech.)</li>
+                                    <li class="w-full">Diploma in Chemical Engineering</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            class="flex-col flex w-72 group hover:shadow-md hover:bg-brand-red transition-all bg-white border border-gray-300 rounded-md">
+                            <div class="flex w-full overflow-hidden">
+                                <img src="assets/program-img/school-of-hospitality-management.webp" alt=""
+                                    class="flex h-full w-full object-contain transition-all group-hover:scale-110" />
+                            </div>
+                            <div class="flex w-full group-hover:text-white gap-3 flex-col px-5 py-3 h-52">
+                                <span class="flex w-full text-sm font-bold">Hospitality and Tourism Management</span>
+                                <ul class="flex flex-col list-disc pl-3 w-full text-sm">
+                                    <li class="w-full">Bachelor in International Hospitality & Tourism Management
+                                        (B.IHTM)
+                                    </li>
+                                    <li class="w-full">MBA in Hospitality & Tourism
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            class="flex-col flex w-72 group hover:shadow-md hover:bg-brand-red transition-all bg-white border border-gray-300 rounded-md">
+                            <div class="flex w-full overflow-hidden">
+                                <img src="assets/program-img/school-of-life-and-allied-science.webp" alt=""
+                                    class="flex h-full w-full object-contain transition-all group-hover:scale-110" />
+                            </div>
+                            <div class="flex w-full group-hover:text-white gap-3 flex-col px-5 py-3 h-52">
+                                <span class="flex w-full text-sm font-bold">Life, Health & Allied Sciences</span>
+                                <ul class="flex flex-col list-disc pl-3 w-full text-sm">
+                                    <li class="w-full">Bachelor of Optometry</li>
+                                    <li class="w-full">B.Sc. Medical Lab Technology</li>
+                                    <li class="w-full">B.Sc. Industrial Chemistry</li>
+                                    <li class="w-full">B.Sc. Microbiology</li>
+                                    <li class="w-full">M.Sc. Industrial Chemistry</li>
+                                    <li class="w-full">M.Sc. Medical Lab Technology</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            class="flex-col flex w-72 group hover:shadow-md hover:bg-brand-red transition-all bg-white border border-gray-300 rounded-md">
+                            <div class="flex w-full overflow-hidden">
+                                <img src="assets/program-img/Royale International School of Nursing.webp" alt=""
+                                    class="flex h-full w-full object-contain transition-all group-hover:scale-110" />
+                            </div>
+                            <div class="flex w-full group-hover:text-white gap-3 flex-col px-5 py-3 h-52">
+                                <span class="flex w-full text-sm font-bold">Royale International School of
+                                    Nursing</span>
+                                <ul class="flex flex-col list-disc pl-3 w-full text-sm">
+                                    <li class="w-full">Auxiliary Nursing and Midwifery (ANM)</li>
+                                    <li class="w-full">General Nursing and Midwifery (GNM)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            class="flex-col flex w-72 group hover:shadow-md hover:bg-brand-red transition-all bg-white border border-gray-300 rounded-md">
+                            <div class="flex w-full overflow-hidden">
+                                <img src="assets/program-img/phd.webp" alt=""
+                                    class="flex h-full w-full object-contain transition-all group-hover:scale-110" />
+                            </div>
+                            <div class="flex w-full group-hover:text-white gap-3 flex-col px-5 py-3 h-52">
+                                <span class="flex w-full text-sm font-bold">Ph.D.</span>
+                                <ul class="flex flex-col list-disc pl-5 w-full text-sm">
+                                    <li class="w-full">Engineering and Technology</li>
+                                    <li class="w-full">Management, Economics & Commerce</li>
+                                    <li class="w-full">Life, Health and Allied Sciences</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="Scholarship" class="flex w-full">
+            <div
+                class="flex flex-col w-full px-5 py-8 md:py-10 md:px-0 lg:py-14  gap-5 lg:gap-8 xl:gap-12 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex w-full">
+                        <h2
+                            class="flex w-full sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl md:text-2xl lg:text-3xl  shimmer-effect2">
+                            Scholarship
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-fit mx-auto md:w-full">
+                    <div class="flex w-full items-center justify-center md:order-2">
+                        <table class="w-full text-left text-sm rounded-md">
+                            <thead class="border-b-2  w-full border-t border-gray-300 bg-gray-400 uppercase">
+                                <tr class=" w-full">
+                                    <th class=" border-x w-1/2 px-2 py-2">Scholarship
+                                    </th>
+                                    <th class=" border-x w-1/2 px-2 py-2">Details</th>
+                                </tr>
+                            </thead>
+                            <tbody class="w-full ">
+                                <tr class="w-full border-b">
+                                    <td class="border-x w-1/2 px-2 py-2">ITM Merit – Graduation</td>
+                                    <td class="border-x w-1/2 px-2 py-2">Provided on X, XII & Graduation % basis.</td>
+                                </tr>
+                                <tr class="w-full border-b">
+                                    <td class="border-x w-1/2 px-2 py-2">ITM Defence & Police Scholarship</td>
+                                    <td class="border-x w-1/2 px-2 py-2">For Military / Paramilitary / Police Personal.
+                                    </td>
+                                </tr>
+                                <tr class="w-full border-b">
+                                    <td rowspan="2" class="border-x w-1/2 px-2 py-2">ITM First SCHOLARSHIP</td>
+                                    <td class="border-x w-1/2 px-2 py-2">Available to all the students who secure</td>
+                                </tr>
+                                <tr class="w-full border-b">
+                                    <td class="border-x w-1/2 px-2 py-2">Admission at the early stage of the
+                                        - Admission Process.</td>
+                                </tr>
+                                <tr class="w-full border-b">
+                                    <td class="border-x w-1/2 px-2 py-2">Pragati Scholarships</td>
+                                    <td class="border-x w-1/2 px-2 py-2">For Girls</td>
+                                </tr>
+                                <tr class="w-full border-b">
+                                    <td class="border-x w-1/2 px-2 py-2">Group Discount, Sports Scholarship, Sibling
+                                        Discount</td>
+                                    <td class="border-x w-1/2 px-2 py-2">For Everyone</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <div class="flex w-full md:order-1 items-center justify-center">
+                        <div
+                            class="flex  w-full h-full max-h-80 max-w-lg mx-auto rounded-md items-center justify-center ">
+                            <img loading="lazy" class="flex rounded-md w-full h-full object-cover "
+                                src="assets/banner-img/scholarship-banner.webp" alt="about banner 1">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="Scope" class="flex h-auto w-full">
+            <div
+                class="mx-auto flex h-full w-full max-w-7xl flex-col gap-5 px-5 py-8 md:py-10 lg:gap-7 lg:py-12 xl:gap-10">
+                <div class="flex w-full flex-col gap-4">
+                    <div class="flex w-fit flex-col sm:items-center sm:justify-center md:mx-auto">
+                        <h2
+                            class="justify-left decoration-brand-red sm :text-2xl shimmer-effect2 flex w-full flex-wrap items-center text-xl font-bold underline decoration-4 underline-offset-4 sm:justify-center lg:text-3xl">
+                            Project Based Learning</h2>
+                    </div>
+                    <div class="card-scroll flex w-full overflow-x-scroll">
+
+                        <div class="flex w-auto justify-start gap-3 py-3">
+                            <article
+                                class="group flex w-80 max-w-xs flex-col gap-5 rounded-md border border-gray-300 transition-all hover:shadow-md">
+                                <div class="flex h-52 w-full overflow-hidden rounded-md">
+                                    <img src="assets/pbl-img/img1.webp" alt=""
+                                        class="flex h-full w-full rounded-md object-cover object-center transition-all group-hover:scale-105" />
+                                </div>
+                                <div class="flex w-full flex-col gap-2 px-5 pb-4">
+                                    <div class="flex w-full">
+                                        <strong class="w-full font-bold text-center">Medichat</strong>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <p class="text-justify text-sm text-gray-700">Medichat is an Artificial
+                                            intelligence based device that takes an input from user through the voice
+                                            recognition and processes it based on algorithms and gives output in from of
+                                            voice to the user.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article
+                                class="group flex w-80 max-w-xs flex-col gap-5 rounded-md border border-gray-300 transition-all hover:shadow-md">
+                                <div class="flex h-52 w-full overflow-hidden rounded-md">
+                                    <img src="assets/pbl-img/img2.webp" alt=""
+                                        class="flex h-full w-full rounded-md object-cover object-center transition-all group-hover:scale-105" />
+                                </div>
+                                <div class="flex w-full flex-col gap-2 px-5 pb-4">
+                                    <div class="flex w-full">
+                                        <strong class="w-full font-bold text-center">Agitator Blade</strong>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <p class="text-justify text-sm text-gray-700">Hydrapulper machine consist of a
+                                            high strength agitator fixed at the bottom of the pulper that helps to break
+                                            the paper bales into smaller pieces. When disintegrated pulp is obtained, it
+                                            is sent for further processing.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article
+                                class="group flex w-80 max-w-xs flex-col gap-5 rounded-md border border-gray-300 transition-all hover:shadow-md">
+                                <div class="flex h-52 w-full overflow-hidden rounded-md">
+                                    <img src="assets/pbl-img/img3.webp" alt=""
+                                        class="flex h-full w-full rounded-md object-cover object-center transition-all group-hover:scale-105" />
+                                </div>
+                                <div class="flex w-full flex-col gap-2 px-5 pb-4">
+                                    <div class="flex w-full">
+                                        <strong class="w-full font-bold text-center">Hydrapulper</strong>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <p class="text-justify text-sm text-gray-700">It is circular tank that contains
+                                            water in which bales of waste paper are loaded for pulping process. Produced
+                                            pulp will be used for new paper products</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article
+                                class="group flex w-80 max-w-xs flex-col gap-5 rounded-md border border-gray-300 transition-all hover:shadow-md">
+                                <div class="flex h-52 w-full overflow-hidden rounded-md">
+                                    <img src="assets/pbl-img/img4.webp" alt=""
+                                        class="flex h-full w-full rounded-md object-cover object-center transition-all group-hover:scale-105" />
+                                </div>
+                                <div class="flex w-full flex-col gap-2 px-5 pb-4">
+                                    <div class="flex w-full">
+                                        <strong class="w-full font-bold text-center">Sheet Press</strong>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <p class="text-justify text-sm text-gray-700">Which will be used for converting
+                                            plastic and aluminium into sheet by application of Pressure and Heat.
+                                            Machine Consist Hydraulic press.
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article
+                                class="group flex w-80 max-w-xs flex-col gap-5 rounded-md border border-gray-300 transition-all hover:shadow-md">
+                                <div class="flex h-52 w-full overflow-hidden rounded-md">
+                                    <img src="assets/pbl-img/img5.webp" alt=""
+                                        class="flex h-full w-full rounded-md object-cover object-center transition-all group-hover:scale-105" />
+                                </div>
+                                <div class="flex w-full flex-col gap-2 px-5 pb-4">
+                                    <div class="flex w-full">
+                                        <strong class="w-full font-bold text-center">Paper waste Pulp</strong>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <p class="text-justify text-sm text-gray-700">Waste paper after processed in
+                                            Hydrapulper machine. It contain fibrous material and debris & impurities are
+                                            removed. Pulp used to produce paper product</p>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article
+                                class="group flex w-80 max-w-xs flex-col gap-5 rounded-md border border-gray-300 transition-all hover:shadow-md">
+                                <div class="flex h-52 w-full overflow-hidden rounded-md">
+                                    <img src="assets/pbl-img/img6.webp" alt=""
+                                        class="flex h-full w-full rounded-md object-cover object-center transition-all group-hover:scale-105" />
+                                </div>
+                                <div class="flex w-full flex-col gap-2 px-5 pb-4">
+                                    <div class="flex w-full">
+                                        <strong class="w-full font-bold text-center">Desktop Injection Moulding
+                                            machine</strong>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <p class="text-justify text-sm text-gray-700">It is used to produce small
+                                            plastic particle. It consist electric drive unit, electric heater and
+                                            injection moulding die.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article
+                                class="group flex w-80 max-w-xs flex-col gap-5 rounded-md border border-gray-300 transition-all hover:shadow-md">
+                                <div class="flex h-52 w-full overflow-hidden rounded-md">
+                                    <img src="assets/pbl-img/img7.webp" alt=""
+                                        class="flex h-full w-full rounded-md object-cover object-center transition-all group-hover:scale-105" />
+                                </div>
+                                <div class="flex w-full flex-col gap-2 px-5 pb-4">
+                                    <div class="flex w-full">
+                                        <strong class="w-full font-bold text-center">3D Printer</strong>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <p class="text-justify text-sm text-gray-700">Three-dimensional (3D) printing is
+                                            an additive manufacturing process that creates a physical object from a
+                                            digital design.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article
+                                class="group flex w-80 max-w-xs flex-col gap-5 rounded-md border border-gray-300 transition-all hover:shadow-md">
+                                <div class="flex h-52 w-full overflow-hidden rounded-md">
+                                    <img src="assets/pbl-img/img8.webp" alt=""
+                                        class="flex h-full w-full rounded-md object-cover object-center transition-all group-hover:scale-105" />
+                                </div>
+                                <div class="flex w-full flex-col gap-2 px-5 pb-4">
+                                    <div class="flex w-full">
+                                        <strong class="w-full font-bold text-center">Duster Mould & Duster</strong>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <p class="text-justify text-sm text-gray-700">Injection moulding die of Duster
+                                            produced using CNC Milling machine and heat treatment done. Successful
+                                            product obtain using die.</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article
+                                class="group flex w-80 max-w-xs flex-col gap-5 rounded-md border border-gray-300 transition-all hover:shadow-md">
+                                <div class="flex h-52 w-full overflow-hidden rounded-md">
+                                    <img src="assets/pbl-img/img9.webp" alt=""
+                                        class="flex h-full w-full rounded-md object-cover object-center transition-all group-hover:scale-105" />
+                                </div>
+                                <div class="flex w-full flex-col gap-2 px-5 pb-4">
+                                    <div class="flex w-full">
+                                        <strong class="w-full font-bold text-center">Injection Moulding Die</strong>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <p class="text-justify text-sm text-gray-700">Die is key functional part of
+                                            injection moulding machine. Plastic injected into die and get desire shape.
+                                            It will contain cavities (male & female), die block</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article
+                                class="group flex w-80 max-w-xs flex-col gap-5 rounded-md border border-gray-300 transition-all hover:shadow-md">
+                                <div class="flex h-52 w-full overflow-hidden rounded-md">
+                                    <img src="assets/pbl-img/img10.webp" alt=""
+                                        class="flex h-full w-full rounded-md object-cover object-center transition-all group-hover:scale-105" />
+                                </div>
+                                <div class="flex w-full flex-col gap-2 px-5 pb-4">
+                                    <div class="flex w-full">
+                                        <strong class="w-full font-bold text-center">Solar Based Robo car</strong>
+                                    </div>
+                                    <div class="flex w-full">
+                                        <p class="text-justify text-sm text-gray-700">The project designs and develops a
+                                            Bluetooth Robot Car which works with solar panel and it is controlled by
+                                            android application</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="Placements" class="flex w-full ">
+            <div
+                class="flex flex-col max-w-7xl px-5 py-4 md:py-10 lg:py-12 gap-5 lg:gap-7 xl:gap-10 w-full h-full  mx-auto">
+                <div class="flex flex-col w-full gap-5 lg:gap-7 xl:gap-10">
+                    <div class="flex flex-col w-full md:items-center md:justify-center ">
+                        <h2
+                            class="flex w-full items-center justify-left md:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl md:text-2xl lg:text-3xl  shimmer-effect2">
+                            Student’s Placement Statistics
+                        </h2>
+                    </div>
+
+                    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 w-full">
+                        <div class="flex w-full">
+                            <div class="flex bg-gray-100 w-full h-fit max-w-lg rounded-md ">
+                                <img loading="lazy" class="flex rounded-md object-contain object-bottom"
+                                    src="assets/banner-img/about-banner.webp" alt="placement-banner">
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-5 w-full ">
+                            <div class="grid grid-cols-1 my-auto w-full gap-3 mx-auto">
+                                <div
+                                    class="flex py-10 text-white items-center justify-center rounded-md bg-brand-red flex-col w-full cursor-pointer transition-all hover:shadow-md hover:-translate-y-2">
+                                    <strong class="flex text-2xl lg:text-3xl  font-bold">12 LPA</strong>
+                                    <span class="flex text-base lg:text-lg">Highest Salary</span>
+                                </div>
+                                <div
+                                    class="flex py-10 text-white items-center justify-center rounded-md bg-black flex-col w-full cursor-pointer transition-all hover:shadow-md hover:-translate-y-2">
+                                    <strong class="flex text-2xl lg:text-3xl font-bold">4 LPA</strong>
+                                    <span class="flex text-base lg:text-lg">Average Salary</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="Top-Recruiters" class="flex w-full">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                    <h2
+                        class="flex flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                        Top Recruiters
+                    </h2>
+                </div>
+                <div class="flex flex-col w-full gap-3">
+                    <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                        <div class="swiper-wrapper ">
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-1.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-2.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-3.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-4.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-5.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-6.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-7.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-8.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-9.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-10.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-11.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-12.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-13.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-14.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                        <div class="swiper-wrapper ">
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-15.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-16.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-17.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-18.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-19.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-20.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-21.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-22.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-23.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-24.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-25.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-26.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-27.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-28.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                        <div class="swiper-wrapper ">
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-29.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-30.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-31.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-32.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-33.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-34.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-35.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-36.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-37.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-38.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-39.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-40.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-41.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-42.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-container2 overflow-hidden w-full h-14 max-h-14 flex">
+                        <div class="swiper-wrapper ">
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-43.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-44.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-45.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-46.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-47.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-48.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-49.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-50.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-51.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-52.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-53.webp" alt="">
+                            </div>
+                            <div class="swiper-slide bg-white border border-gray-300 rounded-md flex px-2 py-1">
+                                <img loading="lazy" src="assets/recruiters/logo-54.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="Internship" class="flex w-full">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                    <h2
+                        class="flex flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                        Placement in Consultation with TPO
+                    </h2>
+                </div>
+                <div class="flex w-full overflow-x-scroll  pb-3 card-scroll items-start">
+                    <div class="flex w-auto gap-3 mx-auto ">
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Jeet Patel.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Jeet Patel</strong>
+                                    <span class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">CSE</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <span class="text-center">Cloud that Technologies, Vadodara</span>
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">9 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Dheeraj Tiwari.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Dheeraj Tiwari</strong>
+                                    <span
+                                        class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">Mechanical</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/proprety-pistol.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">7.85 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Preet Sheth.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Preet Sheth</strong>
+                                    <span class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">MBA
+                                        Marketing</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/proprety-pistol.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">7.85 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Shubham Pawar.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Shubham Pawar</strong>
+                                    <span class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">B.Tech
+                                        Mechatronics</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/racanaa.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">3.60 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Meet Makwana.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Meet Makwana</strong>
+                                    <span class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">CSE</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/racanaa.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">3.05 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Rohit Suthar.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Rohit Suthar</strong>
+                                    <span class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">MBA
+                                        Finance</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/torrecid.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">2.64 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Kartavya Shashtri.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Kartavya Shashtri</strong>
+                                    <span class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">BBA</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/patterns.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">2.58 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Kunjan Rawal.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Kunjan Rawal</strong>
+                                    <span class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">BSC-IC</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/patterns.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">2.04 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Ms. Bhumika Desai.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Ms. Bhumika Desai</strong>
+                                    <span class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">MBA HR</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/shanker-packaging-limites.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">2.16 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Dishant Jethwa.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Dishant Jethwa</strong>
+                                    <span
+                                        class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">Optometry</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/eyecare.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">2.50 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Srujal Patel.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Srujal Patel</strong>
+                                    <span class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">MSC-IC</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/nobel-hygiene.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">2.0 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs group flex-col items-center pt-24 rounded-md ">
+                            <div class="flex w-full h-48 items-center justify-center absolute top-0 ">
+                                <div class="flex w-48 h-48 px-3 py-3 bg-card rounded-lg">
+                                    <div class="flex w-full h-full rounded-md bg-gray-200">
+                                        <img src="assets/tpo-img/Mr. Daksh Parmar.webp"
+                                            class="object-contain h-full w-full rounded-md" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 pt-28 rounded-md transition-all group-hover:shadow-md group-hover:border-brand-red border border-gray-300 w-full ">
+                                <div class="flex w-full items-center justify-center flex-col">
+                                    <strong>Mr. Daksh Parmar</strong>
+                                    <span class="flex px-4 py-1 w-fit bg-brand-red rounded-md text-white">B.Tech
+                                        Mechatronics</span>
+                                </div>
+                                <div class="flex flex-col gap-2 items-center justify-center w-full">
+                                    <div class="flex w-fit h-14">
+                                        <img src="assets/tpo-img/tpo-company/gray-matter-robotics.webp" alt=""
+                                            class="flex w-full h-full object-contain">
+                                    </div>
+                                    <p class="w-fit  text-base">
+                                        <strong>Package :</strong>
+                                        <span class="text-brand-red">2.0 LPA</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="Stories" class="flex w-full">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                    <h2
+                        class="flex flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-6 font-bold text-xl sm:text-2xl lg:text-3xl  shimmer-effect2">
+                        Student Success Stories
+                    </h2>
+                </div>
+                <div class="flex w-full overflow-x-scroll card-scroll py-3">
+                    <ul class="gap-3 w-fit flex">
+                        <li
+                            class="relative grid grid-cols-1 md:grid-cols-2 md:w-96 text-xs gap-2 px-3 py-3 w-72 border border-gray-300 hover:border-brand-red cursor-pointer transition-all group hover:shadow-md group  h-auto  rounded-md items-center justify-center max-w-sm ">
+                            <div class="flex flex-col w-full rounded-md border border-gray-300">
+                                <div class="flex w-full rounded-md max-h-40 h-full">
+                                    <img src="assets/student-stories/SAIKIRAN SONDARKAR.webp"
+                                        class="flex w-full object-contain rounded-md" alt="">
+                                </div>
+                                <div class="flex flex-col px-2 py-3 w-full">
+                                    <h4
+                                        class="flex w-full font-bold text-center items-center justify-center text-brand-red">
+                                        SAIKIRAN SONDARKAR
+                                    </h4>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-full h-full pl-5 rounded-md gap-5 items-center justify-around">
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Joined</strong>
+                                    <span class="flex w-full text-left items-start justify-start">ITM Group of
+                                        Institutes initial Placement from University</span>
+                                </div>
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Now</strong>
+                                    <span class="flex w-full text-left items-start justify-start">Founder & CEO
+                                        Let’s Upgrade, Mumbai
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li
+                            class="relative grid grid-cols-1 md:grid-cols-2 md:w-96 text-xs gap-2 px-3 py-3 w-72 border border-gray-300 hover:border-brand-red cursor-pointer transition-all group hover:shadow-md group  h-auto  rounded-md items-center justify-center max-w-sm ">
+                            <div class="flex flex-col w-full rounded-md border border-gray-300">
+                                <div class="flex w-full rounded-md max-h-40 h-full">
+                                    <img src="assets/student-stories/SARTHAK MANDAL.webp"
+                                        class="flex w-full object-contain rounded-md" alt="">
+                                </div>
+                                <div class="flex flex-col px-2 py-3 w-full">
+                                    <h4
+                                        class="flex w-full font-bold text-center items-center justify-center text-brand-red">
+                                        SARTHAK MANDAL
+                                    </h4>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-full h-full pl-5 rounded-md gap-5 items-center justify-around">
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Joined</strong>
+                                    <span class="flex w-full text-left items-start justify-start">Polycab India
+                                        Ltd.</span>
+                                </div>
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Now</strong>
+                                    <span class="flex w-full text-left items-start justify-start">INDIAN RAILWAYS in
+                                        Mumbai
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li
+                            class="relative grid grid-cols-1 md:grid-cols-2 md:w-96 text-xs gap-2 px-3 py-3 w-72 border border-gray-300 hover:border-brand-red cursor-pointer transition-all group hover:shadow-md group  h-auto  rounded-md items-center justify-center max-w-sm ">
+                            <div class="flex flex-col w-full rounded-md border border-gray-300">
+                                <div class="flex w-full rounded-md max-h-40 h-full">
+                                    <img src="assets/student-stories/PRABHAKAR MISHRA.webp"
+                                        class="flex w-full object-contain rounded-md" alt="">
+                                </div>
+                                <div class="flex flex-col px-2 py-3 w-full">
+                                    <h4
+                                        class="flex w-full font-bold text-center items-center justify-center text-brand-red">
+                                        PRABHAKAR MISHRAL
+                                    </h4>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-full h-full pl-5 rounded-md gap-5 items-center justify-around">
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Joined</strong>
+                                    <span class="flex w-full text-left items-start justify-start">Trainee Engineer at
+                                        Schneider Electric in 2018</span>
+                                </div>
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Now</strong>
+                                    <span class="flex w-full text-left items-start justify-start">Procurement Engineer
+                                        at Schneider Electricat Vadodara </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li
+                            class="relative grid grid-cols-1 md:grid-cols-2 md:w-96 text-xs gap-2 px-3 py-3 w-72 border border-gray-300 hover:border-brand-red cursor-pointer transition-all group hover:shadow-md group  h-auto  rounded-md items-center justify-center max-w-sm ">
+                            <div class="flex flex-col w-full rounded-md border border-gray-300">
+                                <div class="flex w-full rounded-md max-h-40 h-full">
+                                    <img src="assets/student-stories/KRUNAL B UPADHYAY.webp"
+                                        class="flex w-full object-contain rounded-md" alt="">
+                                </div>
+                                <div class="flex flex-col px-2 py-3 w-full">
+                                    <h4
+                                        class="flex w-full font-bold text-center items-center justify-center text-brand-red">
+                                        KRUNAL B UPADHYAY
+                                    </h4>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-full h-full pl-5 rounded-md gap-5 items-center justify-around">
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Joined</strong>
+                                    <span class="flex w-full text-left items-start justify-start">Baroda Moulds & Dies
+                                        in initial Placement from University</span>
+                                </div>
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Now</strong>
+                                    <span class="flex w-full text-left items-start justify-start">Emgineer in L & T at
+                                        Vadodara</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li
+                            class="relative grid grid-cols-1 md:grid-cols-2 md:w-96 text-xs gap-2 px-3 py-3 w-72 border border-gray-300 hover:border-brand-red cursor-pointer transition-all group hover:shadow-md group  h-auto  rounded-md items-center justify-center max-w-sm ">
+                            <div class="flex flex-col w-full rounded-md border border-gray-300">
+                                <div class="flex w-full rounded-md max-h-40 h-full">
+                                    <img src="assets/student-stories/MILIND KINKAR MALAKAR.webp"
+                                        class="flex w-full object-contain rounded-md" alt="">
+                                </div>
+                                <div class="flex flex-col px-2 py-3 w-full">
+                                    <h4
+                                        class="flex w-full font-bold text-center items-center justify-center text-brand-red">
+                                        MILIND KINKAR MALAKAR
+                                    </h4>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-full h-full pl-5 rounded-md gap-5 items-center justify-around">
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Joined</strong>
+                                    <span class="flex w-full text-left items-start justify-start">As Trainee Engineer at
+                                        Schneider Electric in 2018</span>
+                                </div>
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Now</strong>
+                                    <span class="flex w-full text-left items-start justify-start">Sales and Technical
+                                        Service Engineer at Utvyakta Solutions Pvt. Ltd., Vadodara</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li
+                            class="relative grid grid-cols-1 md:grid-cols-2 md:w-96 text-xs gap-2 px-3 py-3 w-72 border border-gray-300 hover:border-brand-red cursor-pointer transition-all group hover:shadow-md group  h-auto  rounded-md items-center justify-center max-w-sm ">
+                            <div class="flex flex-col w-full rounded-md border border-gray-300">
+                                <div class="flex w-full rounded-md max-h-40 h-full">
+                                    <img src="assets/student-stories/JIBIN K JOSE.webp"
+                                        class="flex w-full object-contain rounded-md" alt="">
+                                </div>
+                                <div class="flex flex-col px-2 py-3 w-full">
+                                    <h4
+                                        class="flex w-full font-bold text-center items-center justify-center text-brand-red">
+                                        JIBIN K JOSE
+                                    </h4>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-full h-full pl-5 rounded-md gap-5 items-center justify-around">
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Joined</strong>
+                                    <span class="flex w-full text-left items-start justify-start">In Zydus Cadila in
+                                        Initial Placement from University</span>
+                                </div>
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Now</strong>
+                                    <span class="flex w-full text-left items-start justify-start">Service Engineer in
+                                        ZPMC at Vadodara</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li
+                            class="relative grid grid-cols-1 md:grid-cols-2 md:w-96 text-xs gap-2 px-3 py-3 w-72 border border-gray-300 hover:border-brand-red cursor-pointer transition-all group hover:shadow-md group  h-auto  rounded-md items-center justify-center max-w-sm ">
+                            <div class="flex flex-col w-full rounded-md border border-gray-300">
+                                <div class="flex w-full rounded-md max-h-40 h-full">
+                                    <img src="assets/student-stories/SWAPNIL SHIMPI.webp"
+                                        class="flex w-full object-contain rounded-md" alt="">
+                                </div>
+                                <div class="flex flex-col px-2 py-3 w-full">
+                                    <h4
+                                        class="flex w-full font-bold text-center items-center justify-center text-brand-red">
+                                        SWAPNIL SHIMPI
+                                    </h4>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-full h-full pl-5 rounded-md gap-5 items-center justify-around">
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Joined</strong>
+                                    <span class="flex w-full text-left items-start justify-start">as trainee in
+                                        production dept. at Tatvachintan Pharmachem</span>
+                                </div>
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Now</strong>
+                                    <span class="flex w-full text-left items-start justify-start">Production Officer at
+                                        Navsari</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li
+                            class="relative grid grid-cols-1 md:grid-cols-2 md:w-96 text-xs gap-2 px-3 py-3 w-72 border border-gray-300 hover:border-brand-red cursor-pointer transition-all group hover:shadow-md group  h-auto  rounded-md items-center justify-center max-w-sm ">
+                            <div class="flex flex-col w-full rounded-md border border-gray-300">
+                                <div class="flex w-full rounded-md max-h-40 h-full">
+                                    <img src="assets/student-stories/PINAL PANCHAL.webp"
+                                        class="flex w-full object-contain rounded-md" alt="">
+                                </div>
+                                <div class="flex flex-col px-2 py-3 w-full">
+                                    <h4
+                                        class="flex w-full font-bold text-center items-center justify-center text-brand-red">
+                                        PINAL PANCHAL
+                                    </h4>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-col w-full h-full pl-5 rounded-md gap-5 items-center justify-around">
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Joined</strong>
+                                    <span class="flex w-full text-left items-start justify-start">As Draftsman Trainee
+                                        at Parikh Construction</span>
+                                </div>
+                                <div class="flex w-full flex-col gap-3">
+                                    <strong>Now</strong>
+                                    <span class="flex w-full text-left items-start justify-start">Engineer at Parikh
+                                        Construction at Vadodara</span>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="Student-Testimonial" class="flex w-full bg-gray-50">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                    <h2
+                        class="flex flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                        Student Testimonial
+                    </h2>
+                </div>
+                <div class="flex w-full overflow-x-scroll pb-3 card-scroll items-start">
+                    <div class="flex w-auto gap-3 mx-auto ">
+                        <div class="flex w-72 relative max-w-xs flex-col items-center group rounded-md bg-white">
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 rounded-md border border-gray-300 group-hover:border-brand-red transition-all group-hover:shadow-md w-full ">
+                                <div class="flex justify-between w-full">
+                                    <div class="flex flex-col w-full text-sm">
+                                        <div class="flex w-fit col-span-2">
+                                            <strong class="w-full text-brand-red">SHABNOOR SHAIKH</strong>
+                                        </div>
+                                        <div class="gap-2 w-full ">
+                                            <strong>Batch: </strong>
+                                            <span>BIHTM</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-fit">
+                                        <div class="flex h-16 w-16 rounded-full ">
+                                            <img src="assets/student-testimonial/SHABNOOR SHAIKH.webp" alt=""
+                                                class="h-full w-full object-cover rounded-full flex shimmer-effect2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex w-full h-56">
+                                    <p class="text-justify text-xs">I had an amazing experience with ITM Vocational
+                                        University. So glad that I joined ITM, where I gained so much knowledge from the
+                                        university and the faculties. I enhanced my skills, and they guided me well in
+                                        my studies and course. The curriculum was also good, and I received a lot of
+                                        knowledge. Their focus was not only on the theory part but on the practical part
+                                        as well. The ITM Vocational University’s infrastructure is so impeccable. I’m
+                                        thankful to ITM Vocational University for encouraging me and shaping my career
+                                        well.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs flex-col items-center group rounded-md bg-white">
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 rounded-md border border-gray-300 group-hover:border-brand-red transition-all group-hover:shadow-md w-full ">
+                                <div class="flex justify-between w-full">
+                                    <div class="flex flex-col w-full text-sm">
+                                        <div class="flex w-fit col-span-2">
+                                            <strong class="w-full text-brand-red">KAJAL DABADIYA</strong>
+                                        </div>
+                                        <div class="gap-2 w-full ">
+                                            <strong>Batch: </strong>
+                                            <span>BBA</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-fit">
+                                        <div class="flex h-16 w-16 rounded-full ">
+                                            <img src="assets/student-testimonial/KAJAL DABADIYA.webp" alt=""
+                                                class="h-full w-full object-cover rounded-full flex shimmer-effect2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex w-full h-56">
+                                    <p class="text-justify text-xs">My name is Kajal Dabadiya and I was a student of BBA
+                                        Program at ITM Vocational University, Vadodara. While studying at the University
+                                        I learned a lot of things. The faculty, classroom infrastructure, library &
+                                        transportation facilities are very good, and we were given ample of
+                                        opportunities to learn and try out new things. There were also a lot of
+                                        co-curricular activities that helped us to relieve ourselves from the stress
+                                        that may arise because of studying hard. I really enjoyed my time at the
+                                        University.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs flex-col items-center group rounded-md bg-white">
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 rounded-md border border-gray-300 group-hover:border-brand-red transition-all group-hover:shadow-md w-full ">
+                                <div class="flex justify-between w-full">
+                                    <div class="flex flex-col w-full text-sm">
+                                        <div class="flex w-fit col-span-2">
+                                            <strong class="w-full text-brand-red">ANKIT PATEL</strong>
+                                        </div>
+                                        <div class="gap-2 w-full ">
+                                            <strong>Batch: </strong>
+                                            <span>B.tech Mechatronics EngineeringBA</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-fit">
+                                        <div class="flex h-16 w-16 rounded-full ">
+                                            <img src="assets/student-testimonial/ANKIT PATEL.webp" alt=""
+                                                class="h-full w-full object-cover rounded-full flex shimmer-effect2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex w-full h-56">
+                                    <p class="text-justify text-xs">My experience at the ITM Vocational University was
+                                        amazing. It inspired me to pursue my dreams by providing ample opportunities to
+                                        showcase my knowledge and skills. The faculty were highly qualified,
+                                        knowledgeable, and friendly. The course offers site visits to various curriculum
+                                        activities throughout the year, including sports events(LITMUS), fashion shows,
+                                        annual programs etc. I lived the best student life while pursuing my bachelor’s
+                                        degree in Mechatronics engineering.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs flex-col items-center group rounded-md bg-white">
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 rounded-md border border-gray-300 group-hover:border-brand-red transition-all group-hover:shadow-md w-full ">
+                                <div class="flex justify-between w-full">
+                                    <div class="flex flex-col w-full text-sm">
+                                        <div class="flex w-fit col-span-2">
+                                            <strong class="w-full text-brand-red">PRERAK TRIVEDI</strong>
+                                        </div>
+                                        <div class="gap-2 w-full ">
+                                            <strong>Batch: </strong>
+                                            <span>Intregrated B.Tech Mechanical Engineering</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-fit">
+                                        <div class="flex h-16 w-16 rounded-full ">
+                                            <img src="assets/student-testimonial/PRERAK TRIVEDI.webp" alt=""
+                                                class="h-full w-full object-cover rounded-full flex shimmer-effect2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex w-full h-56">
+                                    <p class="text-justify text-xs">ITM Vocational University has great infrastructure
+                                        and intellectual capital, as I experienced during my B.Tech program in
+                                        Mechanical Engineering. I was able to do an internship at Banco Products India
+                                        Private Limited, Vadodara. My 3 Years in ITMVU was fantastic and memorable. The
+                                        faculty from the Mechanical Engineering department was cooperative and provided
+                                        different training programs/workshops with industries/industry experts, which
+                                        gave me an edge for placements and internships. I am thankful for the skills I
+                                        gained over the past couple of years, which will help me in my career.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs flex-col items-center group rounded-md bg-white">
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 rounded-md border border-gray-300 group-hover:border-brand-red transition-all group-hover:shadow-md w-full ">
+                                <div class="flex justify-between w-full">
+                                    <div class="flex flex-col w-full text-sm">
+                                        <div class="flex w-fit col-span-2">
+                                            <strong class="w-full text-brand-red">RIYA GANDHI</strong>
+                                        </div>
+                                        <div class="gap-2 w-full ">
+                                            <strong>Batch: </strong>
+                                            <span>Bachelor of optometry</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-fit">
+                                        <div class="flex h-16 w-16 rounded-full ">
+                                            <img src="assets/student-testimonial/RIYA GANDHI.webp" alt=""
+                                                class="h-full w-full object-cover rounded-full flex shimmer-effect2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex w-full h-56">
+                                    <p class="text-justify text-xs">I believe my success story at ITM started the day I
+                                        decided to join the course B. Optometry. My idea was to choose a career in which
+                                        I get to serve the community. Knowing about the course of B.Optometry made me
+                                        feel confident that this is the area in which I would like to spend my whole
+                                        life working. Now, I am very confident. I wish to thank my faculty members who
+                                        arranged multiple eye camps. I practice my Optometry skills daily in the
+                                        in-house optometry clinic established in our department.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs flex-col items-center group rounded-md bg-white">
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 rounded-md border border-gray-300 group-hover:border-brand-red transition-all group-hover:shadow-md w-full ">
+                                <div class="flex justify-between w-full">
+                                    <div class="flex flex-col w-full text-sm">
+                                        <div class="flex w-fit col-span-2">
+                                            <strong class="w-full text-brand-red">VISHAL BHANAGE</strong>
+                                        </div>
+                                        <div class="gap-2 w-full ">
+                                            <strong>Batch: </strong>
+                                            <span>B.Tech, Civil Engineering</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-fit">
+                                        <div class="flex h-16 w-16 rounded-full ">
+                                            <img src="assets/student-testimonial/VISHAL BHANAGE.webp" alt=""
+                                                class="h-full w-full object-cover rounded-full flex shimmer-effect2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex w-full h-56">
+                                    <p class="text-justify text-xs">ITMVU provides state-of-the-art infrastructure and
+                                        facilities. The teachers are highly qualified, knowledgeable, and friendly. The
+                                        course curriculum is relevant and offers site visits. Most importantly, the
+                                        project based learning process is followed in this university which helps us to
+                                        think out-of-the-box. The annual events organized by the college are awesome.
+                                        The university conducts various extracurricular activities throughout the year.
+                                        I thoroughly enjoyed my student life while pursuing my graduation.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs flex-col items-center group rounded-md bg-white">
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 rounded-md border border-gray-300 group-hover:border-brand-red transition-all group-hover:shadow-md w-full ">
+                                <div class="flex justify-between w-full">
+                                    <div class="flex flex-col w-full text-sm">
+                                        <div class="flex w-fit col-span-2">
+                                            <strong class="w-full text-brand-red">AJAY SAVALIYA</strong>
+                                        </div>
+                                        <div class="gap-2 w-full ">
+                                            <strong>Batch: </strong>
+                                            <span>B.Sc. (Medical Lab.Technology)</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-fit">
+                                        <div class="flex h-16 w-16 rounded-full ">
+                                            <img src="assets/student-testimonial/AJAY SAVALIYA.webp" alt=""
+                                                class="h-full w-full object-cover rounded-full flex shimmer-effect2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex w-full h-56">
+                                    <p class="text-justify text-xs">One of the biggest life changers was to join ITM
+                                        Vocational University, Vadodara, for graduation in Medical Laboratory
+                                        Technology. I was quite nervous from the beginning because of the new atmosphere
+                                        on campus, meeting new people and new teachers. The teaching at ITMVU is
+                                        excellent. The faculties always helped me to work independently and always
+                                        helped me to develop my individual goals. Communication and Management were
+                                        important skills that I got to learn from ITMVU.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-72 relative max-w-xs flex-col items-center group rounded-md bg-white">
+                            <div
+                                class="flex flex-col gap-5 px-5 py-5 rounded-md border border-gray-300 group-hover:border-brand-red transition-all group-hover:shadow-md w-full ">
+                                <div class="flex justify-between w-full">
+                                    <div class="flex flex-col w-full text-sm">
+                                        <div class="flex w-fit col-span-2">
+                                            <strong class="w-full text-brand-red">ANJALI P. PUROHIT</strong>
+                                        </div>
+                                        <div class="gap-2 w-full ">
+                                            <strong>Batch: </strong>
+                                            <span>M.Sc. (Industrial Chemistry)</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex w-fit">
+                                        <div class="flex h-16 w-16 rounded-full ">
+                                            <img src="assets/student-testimonial/ANJALI P. PUROHIT.webp" alt=""
+                                                class="h-full w-full object-cover rounded-full flex shimmer-effect2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex w-full h-56">
+                                    <p class="text-justify text-xs">The best thing about being at the College was being
+                                        able to invest my time studying the three subjects I’m most passionate about. I
+                                        enjoyed being able to develop myself as a person, becoming more knowledgeable ,
+                                        learning from my mistakes, and how to balance a variety of extra- curricular
+                                        activities with my studies.
+                                        I had some great teachers, who pushed me all the way. I saw their dedication to
+                                        the subject, but also to me. I also loved my mentor, who helped me with any
+                                        problem I had.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="max-w-7xl mx-auto w-full">
+
+        <section id="Camus-life" class="flex w-full">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10 lg:py-12 gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                    <h2
+                        class="flex flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                        Life at Campus
+                    </h2>
+                </div>
+                <div class="flex w-full overflow-x-scroll pb-3 card-scroll cursor-pointer">
+                    <div class=" flex w-fit items-center justify-center mx-auto">
+                        <div class="flex w-80 h-80 flex-wrap">
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/litmus/IMG_2322.webp?mtime=20230324161015&focal=none')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/litmus/IMG_2322.webp?mtime=20230324161015&focal=none" />
+                            </div>
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/litmus/IMG_1963.webp?mtime=20230324161004&focal=none')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/litmus/IMG_1963.webp?mtime=20230324161004&focal=none" />
+                            </div>
+                            <div class="w-full h-2/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/litmus/IMG_1953-1.webp?mtime=20230324160027&focal=none')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/litmus/IMG_1953-1.webp?mtime=20230324160027&focal=none" />
+                            </div>
+                        </div>
+                        <div class="flex w-80 h-80 flex-wrap">
+                            <div class="w-full h-2/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/republicday/republicday2023-1.jpg?mtime=20230130150855&focal=none')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/republicday/republicday2023-1.jpg?mtime=20230130150855&focal=none" />
+                            </div>
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/republicday/republicday2023-7.jpg?mtime=20230130150855&focal=none')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/republicday/republicday2023-7.jpg?mtime=20230130150855&focal=none" />
+                            </div>
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/republicday/republicday2023.jpg?mtime=20230130150854&focal=none')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://dg1xqmhtoint1.cloudfront.net/img/vadodara/gallery/republicday/republicday2023.jpg?mtime=20230130150854&focal=none" />
+                            </div>
+                        </div>
+                        <div class="flex w-80 h-80 flex-wrap">
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://www.itm.ac.in/Images/Freshers-Party4.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/Freshers-Party4.jpg" />
+                            </div>
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://www.itm.ac.in/Images/Freshers-Party6.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/Freshers-Party6.jpg" />
+                            </div>
+                            <div class="w-full h-2/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://www.itm.ac.in/Images/Freshers-Party7.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/Freshers-Party7.jpg" />
+                            </div>
+                        </div>
+                        <div class="flex w-80 h-80 flex-wrap">
+                            <div class="w-full h-2/3 p-1">
+                                <img alt="gallery" onclick="showImage('https://www.itm.ac.in/Images/STBI-visit5.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/STBI-visit5.jpg" />
+                            </div>
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery" onclick="showImage('https://www.itm.ac.in/Images/STBI-visit1.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/STBI-visit1.jpg" />
+                            </div>
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery" onclick="showImage('https://www.itm.ac.in/Images/STBI-visit4.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/STBI-visit4.jpg" />
+                            </div>
+                        </div>
+                        <div class="flex w-80 h-80 flex-wrap">
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://www.itm.ac.in/Images/Ganesh-Chaturthi9.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/Ganesh-Chaturthi9.jpg" />
+                            </div>
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://www.itm.ac.in/Images/Ganesh-Chaturthi3.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/Ganesh-Chaturthi3.jpg" />
+                            </div>
+                            <div class="w-full h-2/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://www.itm.ac.in/Images/Ganesh-Chaturthi1.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/Ganesh-Chaturthi1.jpg" />
+                            </div>
+                        </div>
+                        <div class="flex w-80 h-80 flex-wrap">
+                            <div class="w-full h-2/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://www.itm.ac.in/Images/Independance-Day6.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/Independance-Day6.jpg" />
+                            </div>
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://www.itm.ac.in/Images/Independance-Day5.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/Independance-Day5.jpg" />
+                            </div>
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery"
+                                    onclick="showImage('https://www.itm.ac.in/Images/Independance-Day2.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/Independance-Day2.jpg" />
+                            </div>
+                        </div>
+                        <div class="flex w-80 h-80 flex-wrap">
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery" onclick="showImage('https://www.itm.ac.in/Images/kalakriti1.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/kalakriti1.jpg" />
+                            </div>
+                            <div class="w-1/2 h-1/3 p-1">
+                                <img alt="gallery" onclick="showImage('https://www.itm.ac.in/Images/kalakriti2.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/kalakriti2.jpg" />
+                            </div>
+                            <div class="w-full h-2/3 p-1">
+                                <img alt="gallery" onclick="showImage('https://www.itm.ac.in/Images/kalakriti4.jpg')"
+                                    class="flex h-full w-full rounded-lg object-cover object-center"
+                                    src="https://www.itm.ac.in/Images/kalakriti4.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center">
+                    <a class="flex w-28 rounded-md items-center justify-center px-2 py-2 bg-brand-red text-white hover:bg-black"
+                        href="https://www.itm.ac.in/gallery.html">Show More</a>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="flex flex-col w-full mb-10 ">
+        <div class="flex w-full bg-gray-500 py-5">
+            <p class="flex w-full items-center justify-center text-center text-white text-base">
+                © 2024 ITM University. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+    <script>
+        const details = document.querySelectorAll(".details");
+
+        // Add the onclick listeners.
+        details.forEach((targetDetail) => {
+            targetDetail.addEventListener("click", () => {
+                // Close all the details that are not targetDetail.
+                details.forEach((detail) => {
+                    if (detail !== targetDetail) {
+                        detail.removeAttribute("open");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
