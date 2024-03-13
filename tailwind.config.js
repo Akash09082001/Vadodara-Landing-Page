@@ -79,6 +79,8 @@ module.exports = {
         'card': 'linear-gradient(to right, transparent 20%, #A91D54 20%)',
         'hero-bsc-ihtm-mob': "url('assets/hero-img/bsc-ihtm-mob.webp')",
         'hero-bsc-ihtm-desk': "url('assets/hero-img/bsc-ihtm-web.webp')",
+        'hero-mba-mob': "url('assets/hero-img/mba-mob.webp')",
+        'hero-mba-desk': "url('assets/hero-img/mba-desk.webp')",
         'card1': "linear-gradient(172deg,#a91d54 70% , white 30%)"
       },
       backgroundColor: {
