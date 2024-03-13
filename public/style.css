@@ -1313,6 +1313,14 @@ video {
   background-image: url('assets/hero-img/bsc-ihtm-mob.webp');
 }
 
+.bg-hero-mba-desk{
+  background-image: url('assets/hero-img/mba-desk.webp');
+}
+
+.bg-hero-mba-mob{
+  background-image: url('assets/hero-img/mba-mob.webp');
+}
+
 .bg-\[length\:auto_40\%\]{
   background-size: auto 40%;
 }
@@ -2218,24 +2226,20 @@ details>summary::-webkit-details-marker {
     background-image: url('assets/hero-img/hero-img-desk.webp');
   }
 
-  .lg\:bg-hero-bsc-ihtm-desk{
-    background-image: url('assets/hero-img/bsc-ihtm-web.webp');
-  }
-
-  .lg\:bg-\[length\:auto_100\%\]{
-    background-size: auto 100%;
+  .lg\:bg-hero-mba-desk{
+    background-image: url('assets/hero-img/mba-desk.webp');
   }
 
   .lg\:bg-\[length\:auto_60\%\]{
     background-size: auto 60%;
   }
 
-  .lg\:bg-\[length\:auto_80\%\]{
-    background-size: auto 80%;
-  }
-
   .lg\:bg-\[length\:auto_90\%\]{
     background-size: auto 90%;
+  }
+
+  .lg\:bg-\[length\:auto_100\%\]{
+    background-size: auto 100%;
   }
 
   .lg\:bg-\[bottom_center\]{
