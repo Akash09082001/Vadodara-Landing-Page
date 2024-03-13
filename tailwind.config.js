@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     screens: {
 
-      'xs' :'350px',
+      'xs': '350px',
       // => @media (min-width: 350px) { ... }
 
       'sm': '640px',
@@ -29,13 +29,13 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    colors :{
-      'primary' : '#4F46E5',
+    colors: {
+      'primary': '#4F46E5',
       'secondary': '#222222',
       'brand-red': '#A91D54',
-      'brand-gray' : '#F3F3F3',
-      'brand-light-gray':'#fbfbff',
-      'brand-light-pink' : '#fff1f1',
+      'brand-gray': '#F3F3F3',
+      'brand-light-gray': '#fbfbff',
+      'brand-light-pink': '#fff1f1',
       transparent: 'transparent',
       current: 'currentColor',
       black: colors.black,
@@ -63,10 +63,10 @@ module.exports = {
       aspectRatio: {
         '16/9': '960 / 540',
       },
-      inset:{
-        '22':'90px'
+      inset: {
+        '22': '90px'
       },
-      fontSize:{
+      fontSize: {
         '2xl+': ['28px', '34px'],
         '4xl+': ['36px', '40px'],
       },
@@ -76,10 +76,13 @@ module.exports = {
       backgroundImage: {
         'hero-banner-mob': "url('assets/hero-img/hero-img-mob.webp')",
         'hero-banner-desk': "url('assets/hero-img/hero-img-desk.webp')",
-        'card': 'linear-gradient(to right, transparent 20%, #A91D54 20%)'
+        'card': 'linear-gradient(to right, transparent 20%, #A91D54 20%)',
+        'hero-bsc-ihtm-mob': "url('assets/hero-img/bsc-ihtm-mob.webp')",
+        'hero-bsc-ihtm-desk': "url('assets/hero-img/bsc-ihtm-web.webp')",
+        'card1': "linear-gradient(172deg,#a91d54 70% , white 30%)"
       },
-      backgroundColor:{
-        'modal-dark-fade':'rgba(0, 0, 0, 0.4)',
+      backgroundColor: {
+        'modal-dark-fade': 'rgba(0, 0, 0, 0.4)',
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
